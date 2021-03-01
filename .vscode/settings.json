@@ -1,0 +1,36 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.wordWrapColumn": 120,
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "javascript.format.semicolons": "insert",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "svn.ignoreMissingSvnWarning": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.sass": "sass-formatter",
+    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatterOptions": {
+        "prettyhtml": {
+            "tabWidth": 4,
+            "printWidth": 120
+        }
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
