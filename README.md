@@ -67,17 +67,17 @@
 ```shell
 # 以 npm 为例，使用 yarn 等其他包管理工具的请自行替换成相应命令。
 
-npm install @typescript-eslint/eslint-plugin@4.9.1 --save-dev
-npm install @typescript-eslint/parser@4.9.1 --save-dev
-npm install @vue/cli-plugin-babel@5.0.0-alpha.5 --save-dev
-npm install @vue/cli-plugin-eslint@5.0.0-alpha.5  --save-dev
-npm install @vue/cli-plugin-typescript@5.0.0-alpha.5 --save-dev
+npm install @typescript-eslint/eslint-plugin@4.18.0 --save-dev
+npm install @typescript-eslint/parser@4.18.0 --save-dev
+npm install @vue/cli-plugin-babel@5.0.0-alpha.7 --save-dev
+npm install @vue/cli-plugin-eslint@5.0.0-alpha.7  --save-dev
+npm install @vue/cli-plugin-typescript@5.0.0-alpha.7 --save-dev
 npm install @vue/eslint-config-prettier@6.0.0 --save-dev
 npm install @vue/eslint-config-typescript@7.0.0 --save-dev
-npm install eslint@7.15.0 --save-dev
-npm install eslint-plugin-html@6.0.3 --save-dev
+npm install eslint@7.22.0 --save-dev
+npm install eslint-plugin-html@6.1.2 --save-dev
 npm install eslint-plugin-prettier@3.2.0 --save-dev
-npm install eslint-plugin-vue@7.2.0 --save-dev
+npm install eslint-plugin-vue@7.7.0 --save-dev
 npm install prettier@2.2.1 --save-dev
 ```
 
