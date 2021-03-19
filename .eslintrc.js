@@ -36,9 +36,11 @@ module.exports = {
         'semi': ['error', 'always'],
         'vue/html-closing-bracket-spacing': ['warn', { selfClosingTag: 'always' }],
         'vue/no-unused-components': 'warn',
-        '@typescript-eslint/ban-ts-ignore': 'warn',
+        '@typescript-eslint/ban-ts-comment': 'warn',
+        '@typescript-eslint/ban-ts-ignore': 'off',
+        '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
-        '@typescript-eslint/indent': ['error', 4, { VariableDeclarator: 4, SwitchCase: 1 }],
+        '@typescript-eslint/indent': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off'
     }
 };
