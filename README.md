@@ -50,9 +50,9 @@
 
 -   **ESLint**（插件名：`dbaeumer.vscode-eslint`）
 
--   **Vue Language Features (Volar)**（插件名：`johnsoncodehk.volar`）
+-   **Vue Language Features (Volar)**（插件名：`Vue.volar`）
 
--   **TypeScript Vue Plugin (Volar)**（插件名：`johnsoncodehk.vscode-typescript-vue-plugin`）
+-   **TypeScript Vue Plugin (Volar)**（插件名：`Vue.vscode-typescript-vue-plugin`）
 
 如果你有曾安装过 **Vetur**，请先禁用，否则可能与 **Volar** 存在潜在的冲突。
 
