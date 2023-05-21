@@ -12,7 +12,7 @@
 
 -   基于 `Vue 3.x` + `Vue-CLI 5` / `Vite 2`。
 
--   解决了 `Prettier`、`ESlint`、`Vetur` 等几个插件冲突问题。
+-   解决了 `Prettier`、`ESlint`、`Volar` 等几个插件冲突问题。
 
 -   提供了主流前端项目的通用 `Git` 忽略项。
 
@@ -67,13 +67,14 @@
 ```shell
 # 以 npm 为例，使用 yarn 等其他包管理工具的请自行替换成相应命令。
 
-npm install --save-dev @babel/core@7.18
-npm install --save-dev @rushstack/eslint-patch@1.1
-npm install --save-dev @vue/eslint-config-prettier@7.0
+npm install --save-dev @babel/core@7.21
+npm install --save-dev @rushstack/eslint-patch@1.2
+npm install --save-dev @volar-plugins/prettyhtml@2.0
+npm install --save-dev @vue/eslint-config-prettier@7.1
 npm install --save-dev @vue/eslint-config-typescript@11.0
-npm install --save-dev eslint@8.18
-npm install --save-dev eslint-plugin-vue@9.1
-npm install --save-dev prettier@2.7
+npm install --save-dev eslint@8.40
+npm install --save-dev eslint-plugin-vue@9.12
+npm install --save-dev prettier@2.8
 npm install --save-dev tslib@latest
 npm install --save-dev typescript@latest
 ```
@@ -90,9 +91,10 @@ npm install --save-dev @vue/cli-service@5.0
 -   使用 Vite 的项目还需额外安装：
 
 ```shell
-npm install --save-dev @rollup/plugin-babel@5.3
-npm install --save-dev @vue/tsconfig@0.1
-npm install --save-dev vue-tsc@0.38
+npm install --save-dev @rollup/plugin-babel@6.0
+npm install --save-dev @vue/tsconfig@latest
+npm install --save-dev vite@latest
+npm install --save-dev vue-tsc@latest
 ```
 
 ### 开发

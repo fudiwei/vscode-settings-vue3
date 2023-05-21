@@ -1,5 +1,5 @@
 {
-    "extends": "@vue/tsconfig/tsconfig.web.json",
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
     "include": [
         "src/**/*.ts",
         "src/**/*.tsx",
@@ -15,6 +15,7 @@
         "composite": true,
         "experimentalDecorators": true,
         "isolatedModules": false,
+        "jsx": "preserve",
         "lib": [
             "ESNext",
             "DOM",
@@ -36,7 +37,7 @@
     },
     "references": [
         {
-            "path": "./tsconfig.vite-config.json"
+            "path": "./tsconfig.config.json"
         }
     ]
 }
