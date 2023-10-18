@@ -67,14 +67,13 @@
 ```shell
 # 以 npm 为例，使用 yarn 等其他包管理工具的请自行替换成相应命令。
 
-npm install --save-dev @babel/core@7.21
-npm install --save-dev @rushstack/eslint-patch@1.2
-npm install --save-dev @volar-plugins/prettyhtml@2.0
-npm install --save-dev @vue/eslint-config-prettier@7.1
-npm install --save-dev @vue/eslint-config-typescript@11.0
-npm install --save-dev eslint@8.40
-npm install --save-dev eslint-plugin-vue@9.12
-npm install --save-dev prettier@2.8
+npm install --save-dev @babel/core@7.23
+npm install --save-dev @rushstack/eslint-patch@1.5
+npm install --save-dev @vue/eslint-config-prettier@8.0
+npm install --save-dev @vue/eslint-config-typescript@12.0
+npm install --save-dev eslint@8.51
+npm install --save-dev eslint-plugin-vue@9.17
+npm install --save-dev prettier@3.0
 npm install --save-dev tslib@latest
 npm install --save-dev typescript@latest
 ```
@@ -91,7 +90,6 @@ npm install --save-dev @vue/cli-service@5.0
 -   使用 Vite 的项目还需额外安装：
 
 ```shell
-npm install --save-dev @rollup/plugin-babel@6.0
 npm install --save-dev @vue/tsconfig@latest
 npm install --save-dev vite@latest
 npm install --save-dev vue-tsc@latest

@@ -17,7 +17,8 @@
     "liveServer.settings.root": "/dist/",
     "svn.ignoreMissingSvnWarning": true,
     "typescript.tsdk": "node_modules/typescript/lib",
+    "vue.codeActions.enabled": false,
     "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }

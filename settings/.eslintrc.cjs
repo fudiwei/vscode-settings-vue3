@@ -1,6 +1,9 @@
 /* eslint-env node */
 require('@rushstack/eslint-patch/modern-module-resolution');
 
+/**
+ * @type {import("eslint").Linter.Config}
+ */
 module.exports = {
     env: {
         'vue/setup-compiler-macros': true,
@@ -12,6 +15,9 @@ module.exports = {
         '@vue/eslint-config-typescript/recommended',
         '@vue/eslint-config-prettier'
     ],
+    parserOptions: {
+        ecmaVersion: 'latest'
+    },
     root: true,
     rules: {
         'indent': 'off',
